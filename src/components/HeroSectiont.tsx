@@ -35,7 +35,7 @@ const HeroSection = () => {
               className="bg-white text-purple-900 hover:bg-gray-100 font-semibold px-8 py-6 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <a 
-                href="https://agenda.codemat.com.br" 
+                href="https://agenda.codematch.com.br/dashboard" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -54,7 +54,7 @@ const HeroSection = () => {
                   element.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="border-white text-white hover:bg-white hover:text-purple-900 font-semibold px-8 py-6 text-lg rounded-full transition-all duration-300"
+              className="border-white text-purple-600 hover:bg-white hover:text-purple-900 font-semibold px-8 py-6 text-lg rounded-full transition-all duration-300"
             >
               Conheça Nossa História
             </Button>

@@ -80,7 +80,7 @@ const TestimonialsSection = () => {
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-4">Quer fazer parte dessas histórias de sucesso?</p>
             <a
-              href="https://agenda.codemat.com.br"
+              href="https://agenda.codematch.com.br/dashboard"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition-colors duration-300 font-semibold hover:scale-105 transform"

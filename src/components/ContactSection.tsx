@@ -45,6 +45,48 @@ const ContactSection = () => {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div className="space-y-8 animate-fade-in">
+
+				<Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
+				<CardHeader>
+					<CardTitle className="flex items-center gap-3 text-2xl font-playfair">
+					<Clock className="w-6 h-6" />
+					Horário de Atendimento
+					</CardTitle>
+				</CardHeader>
+				<CardContent>
+					<div className="space-y-2 text-purple-100">
+					<div className="flex justify-between">
+						<span>Segunda-feira:</span>
+						<span>Fechado</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Terça-feira:</span>
+						<span>10:00–18:00</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Quarta-feira:</span>
+						<span>10:00–18:00</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Quinta-feira:</span>
+						<span>10:00–18:00</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Sexta-feira:</span>
+						<span>10:00–18:00</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Sábado:</span>
+						<span>10:00–18:00</span>
+					</div>
+					<div className="flex justify-between">
+						<span>Domingo:</span>
+						<span>13:00–16:30</span>
+					</div>
+					</div>
+				</CardContent>
+				</Card>
+
               <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3 text-2xl font-playfair">
@@ -75,47 +117,8 @@ const ContactSection = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3 text-2xl font-playfair">
-                    <MapPin className="w-6 h-6" />
-                    Localização
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-purple-100">
-                    Atendimento em domicílio na região de São Paulo
-                  </p>
-                  <p className="text-sm text-purple-200 mt-2">
-                    Entre em contato para verificar disponibilidade na sua região
-                  </p>
-                </CardContent>
-              </Card>
 
-              <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3 text-2xl font-playfair">
-                    <Clock className="w-6 h-6" />
-                    Horário de Atendimento
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2 text-purple-100">
-                    <div className="flex justify-between">
-                      <span>Segunda - Sexta:</span>
-                      <span>9h às 18h</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Sábado:</span>
-                      <span>8h às 16h</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Domingo:</span>
-                      <span>Sob consulta</span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+             
             </div>
 
             {/* Contact Form */}
@@ -174,6 +177,19 @@ const ContactSection = () => {
 
                   <p className="text-sm text-purple-200 mt-4 text-center">
                     Sua mensagem será enviada diretamente para nosso WhatsApp
+                  </p>
+                </CardContent>
+              </Card>
+			  <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white mt-8">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3 text-2xl font-playfair">
+                    <MapPin className="w-6 h-6" />
+                    Localização
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-purple-100">
+                    R. Doze de Setembro, 328 - Jardim Bela Vista, Itapevi - SP
                   </p>
                 </CardContent>
               </Card>
